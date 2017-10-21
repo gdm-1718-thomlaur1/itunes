@@ -1,0 +1,126 @@
+body{
+    background-color: #F7F7F7;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 28px;
+    line-height: 1.5em;
+}
+h5{
+    font-family: 'Varela Round', sans-serif;
+    color: #115bf6;
+}
+h6{
+    font-family: 'Varela Round', sans-serif;
+    color: #a9a9a9;
+}
+
+mark{
+    padding: 10px;
+    background-color: #F7F7F7;
+    color: #115bf6;
+}
+.quote{
+  
+}
+.pagina-quote{
+    height: 100vh;
+}
+
+.album{
+    margin:50px;
+    max-width: 200px;
+    height:auto;
+    transition-duration: 0.5s;
+}
+.album:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+
+.spotify{
+    width: 50px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 50%;
+}
+.spotify:hover{
+    cursor: pointer;
+}
+
+.bijschrift{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table{
+    margin:20px auto;
+    max-width: 300px;
+}
+
+td:nth-child(1){
+    text-align: center;
+}
+td:nth-child(2){
+    padding-left:5px;
+    width: 200px;
+}
+td:nth-child(3){
+    text-align: center;
+}
+
+button{
+    background-color: #115bf6;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+    width: 150px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.19), 0 6px 16px 0 rgba(0,0,0,0.2);
+}
+button:hover{
+    background-color: #34ab9e;
+    cursor: pointer;
+}
+button:focus{
+    outline: 0;
+}
+
+.melding{
+    border: none;
+    background-color: #F7F7F7;
+    width: auto;
+    padding: 50px;
+}
+
+.playlist{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin: 50px 0px;
+}
+
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { 
+    h1{
+        font-size: 2.5rem;
+    }
+    .text-rechts{
+        text-align: right;
+    }
+    .text-links{
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
