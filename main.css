@@ -52,6 +52,7 @@ mark{
 }
 
 .close{
+    float: left;
     width: 30px;
 }
 .close:hover{
@@ -79,6 +80,7 @@ td:nth-child(3){
 }
 
 button{
+    font-family: 'Varela Round', sans-serif;
     background-color: #115bf6;
     color: white;
     border: none;
